@@ -10,6 +10,9 @@ namespace optional_arguments
     {
         static void Main(string[] args)
         {
+            var Class = new Class();
+            Class.Display("String");
+            Console.ReadLine();
         }
     }
 }
